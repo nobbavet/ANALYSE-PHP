@@ -1,0 +1,10 @@
+header { 
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: indianred;
+    background-color: cadetblue;
+    border: 2px solid indianred; 
+    border-radius: 4px;
+}
