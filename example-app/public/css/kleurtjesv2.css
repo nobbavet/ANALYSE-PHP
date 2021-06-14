@@ -1,5 +1,11 @@
-header { 
+* {
+    margin: 0;
     padding: 2px;
+    border-size: border-box;
+}
+
+header { 
+    position: relative;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
