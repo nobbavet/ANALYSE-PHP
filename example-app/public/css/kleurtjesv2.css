@@ -1,16 +1,25 @@
 * {
     margin: 0;
-    padding: 2px;
+    padding: 0px;
     border-size: border-box;
 }
 
 header { 
-    position: relative;
+    position: static;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
     color: indianred;
     background-color: cadetblue;
     border: 2px solid indianred; 
-    border-radius: 4px;
+}
+
+main {
+    position: static;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    background-color: cadetblue;
+    height: 100px;
 }
