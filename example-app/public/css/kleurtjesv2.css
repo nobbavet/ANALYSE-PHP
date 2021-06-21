@@ -20,8 +20,8 @@ main {
     font-weight: bold;
     font-size: 12px;
     color: black;
-    background-color: cadetblue;
-    height: 100px;
+    background-color: lightblue;
+    height: 913px;
 }
 
 aside {
@@ -30,4 +30,12 @@ aside {
 
 footer {
     position: static bottom;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: indianred;
+    background-color: cadetblue;
+    height: 20px;
+    border: 2px solid indianred;
 }
+/* ben bezig om het responsive te maken voor mobiel en laptop, dus even wat research doen */
