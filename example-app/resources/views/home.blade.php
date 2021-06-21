@@ -18,8 +18,8 @@
         <aside> 
 
         </aside>
-        <footer> 
-            
+        <footer>
+            <h2>Dipshit&Co</h2> 
         </footer>
     </div>    
 </body>

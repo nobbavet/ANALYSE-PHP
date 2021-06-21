@@ -23,3 +23,11 @@ main {
     background-color: cadetblue;
     height: 100px;
 }
+
+aside {
+
+}   
+
+footer {
+    position: static bottom;
+}
