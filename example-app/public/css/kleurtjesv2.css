@@ -1,27 +1,33 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0px;
-    border-size: border-box;
+    box-sizing: border-box;
 }
 
 header { 
     position: static;
     text-align: center;
     font-weight: bold;
-    font-size: 15px;
     color: indianred;
     background-color: cadetblue;
     border: 2px solid indianred; 
+}
+
+h1 {
+    font-size: 2vw;
+}
+
+h2 {
+    font-size: 1vw
 }
 
 main {
     position: static;
     text-align: center;
     font-weight: bold;
-    font-size: 12px;
     color: black;
     background-color: lightblue;
-    height: 913px;
+    height: 100%;
 }
 
 aside {
@@ -32,10 +38,15 @@ footer {
     position: static bottom;
     text-align: center;
     font-weight: bold;
-    font-size: 12px;
     color: indianred;
     background-color: cadetblue;
     height: 20px;
     border: 2px solid indianred;
 }
-/* ben bezig om het responsive te maken voor mobiel en laptop, dus even wat research doen */
+/* ben bezig om het responsive te maken voor mobiel en laptop, 
+dus even wat research doen */
+@media only screen and (max-width: 620px) {
+    .header, .main, .aside, .footer {
+        width: 100%;
+    }
+}
