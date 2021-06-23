@@ -1,6 +1,4 @@
 * {
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -10,6 +8,9 @@ header {
     font-weight: bold;
     color: indianred;
     background-color: cadetblue;
+    padding: 5px;
+    float: left;
+    width: 100%;
     border: 2px solid indianred; 
 }
 
@@ -26,12 +27,18 @@ main {
     text-align: center;
     font-weight: bold;
     color: black;
-    background-color: lightblue;
+    background-color: lightgreen;
+    padding: 5px;
+    float: left;
+    width: 70%;
     height: 100%;
 }
 
 aside {
-
+    background-color: lightblue;
+    float: left;
+    padding: 5px;
+    width: 30%;
 }   
 
 footer {
@@ -41,11 +48,14 @@ footer {
     color: indianred;
     background-color: cadetblue;
     height: 20px;
+    float: left;
+    padding: 5px;
+    width: 100%;
     border: 2px solid indianred;
 }
 /* ben bezig om het responsive te maken voor mobiel en laptop, 
 dus even wat research doen */
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 800px) {
     .header, .main, .aside, .footer {
         width: 100%;
     }
