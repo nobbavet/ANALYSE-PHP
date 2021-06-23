@@ -8,9 +8,11 @@
     <title>DOCUMENT2</title>
 </head>
 <body>
+    <!-- bezig met een hamburger menu hiero -->
     <div class="wrapper" id="wrapper">
-        <header>
+        <header>        
             <h1>PORTO</h1>
+            <button> </button>
         </header>
         <main> 
             <h2>ELLOOOOW</h2>
@@ -19,7 +21,7 @@
             <h2>Menu</h2>
         </aside>
         <footer>
-            <h2>Dipshit&Co</h2> 
+            <p>Dipshit&Co</p> 
         </footer>
     </div>    
 </body>
