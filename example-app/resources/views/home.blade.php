@@ -22,11 +22,10 @@
             <!-- <img src="hamboerger.png" alt=""> -->
         </header>
         <main> 
-            <h2>ELLOOOOW</h2>
+            <div class="effect">
+                <button><span><a href="hobby">Hobby's</a></span></button>
+            </div>
         </main>
-        <!-- <aside> 
-            <h2>Menu</h2>
-        </aside> -->
         <footer>
             <p>Dipshit&Co</p> 
         </footer>

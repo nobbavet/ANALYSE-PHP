@@ -41,25 +41,25 @@ ul {
     top: 0;
 }
 
-li {
-    float: left;
-}
+    li {
+        float: left;
+    }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
-li a:hover {
-    background-color: yellow;
-}
+    li a:hover {
+        background-color: yellow;
+    }
 
-.active {
-    background-color: violet;
-}
+    .active {
+        background-color: violet;
+    }
 
 /* main {
     position: relative;
@@ -73,20 +73,66 @@ li a:hover {
     height:100%;
     min-height: 90%;
 } */
-
+ 
 main{
-    height: 92vh;
-    width: 70vw;
+    height: 90vh;
+    width: 100vw;
     float: left;
     background-color: royalblue;
 }
 
-aside {
+    .effect {
+     background-color: thistle;
+     margin: 10px;
+     bottom: 0%;
+    }
+    /* stukje dichterbij gekomen bij mijn idee */
+    button {
+        border-radius: 4px;
+        background-color: #5ca1e1;
+        border: none;
+        color: #fff;
+        text-align: center;
+        font-size: 32px;
+        padding: 16px;
+        width: 220px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 36px;
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    }
+
+    button {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    button:after {
+        content: '»';
+        position: absolute;
+        opacity: 0;
+        top: 14px;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    button:hover {
+        padding-right: 24px;
+        padding-left: 8px;
+    }
+
+    button:hover:after {
+        opacity: 1;
+        right: 10px;
+    }
+
+/* aside {
     background-color: lightblue;
     float:  right;
     padding: 5px;
-    width: 30vw;
-}   
+}    */
 
 footer {
     position: absolute;
