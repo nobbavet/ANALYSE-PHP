@@ -5,8 +5,8 @@
 }
 
 header { 
-    position: relati;
-    text-awlign: center;
+    position: relative;
+    text-align: center;
     font-weight: bold;
     color: indianred;
     background-color: cadetblue;
@@ -32,6 +32,35 @@ h2, p {
 #wrapper {
     background-color: transparent;
 }
+
+/* navigatie css */
+ul {
+    overflow: hidden;
+    background-color: coral;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: yellow;
+}
+
+.active {
+    background-color: violet;
+}
+
 /* main {
     position: relative;
     text-align: center;
