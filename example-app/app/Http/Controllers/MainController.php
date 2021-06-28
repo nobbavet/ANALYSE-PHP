@@ -13,5 +13,12 @@ class MainController extends Controller
         // dd($request);
         return view('hobby');
     }
-    // public function
+    public function Programma()
+    {
+        return view('Programma');
+    }
+    public function WieBenIk()
+    {
+        return view('WieBenIk');
+    }
 }

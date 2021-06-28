@@ -10,14 +10,13 @@
 <body>
     <div class="wrapper" id="wrapper">
         <header>        
-            <h1>HOBBY'S</h1>
+            <h1>Programs</h1>
             <nav> 
-                <!-- /* navbar toegevoegd voordat ik een hamburger menu ging maken */ -->
                 <ul> 
-                    <li><a href="/">Home</a></li> 
+                <li><a href="/">Home</a></li> 
                     <li><a href="WieBenIk">Wie Ben Ik</a></li>
-                    <li><a class="active" href="hobby">Hobby's</a></li>   
-                    <li><a href="Programma">Programs</a></li>               
+                    <li><a href="hobby">Hobby's</a></li>   
+                    <li><a class="active" href="Programma">Programs</a></li>           
                 </ul>
             </nav>
         </header>

@@ -13,17 +13,25 @@
     <div class="wrapper" id="wrapper">
         <header>        
             <h1>PORTO</h1>
-            <nav>
+            <!-- <nav>
                 <ul>
                     <li><a class="active" href="#home">Home</a></li>
                     <li><a href="hobby">Hobby's</a></li>                
                 </ul>
-            </nav>
+            </nav> -->
             <!-- <img src="hamboerger.png" alt=""> -->
         </header>
         <main> 
-            <div class="effect">
-                <button><span><a href="hobby">Hobby's</a></span></button>
+            <div class="buttons">
+                <div class="effect">
+                    <button><span><a href="WieBenIk">Wie ben ik</a></span></button>
+                </div>
+                <div class="effect">
+                    <button><span><a href="hobby">Hobby's</a></span></button>
+                </div>
+                <div class="effect">
+                    <button><span><a href="Programma">Programma's</a></span></button>
+                </div>
             </div>
         </main>
         <footer>

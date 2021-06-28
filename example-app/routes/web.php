@@ -20,3 +20,7 @@ Route::get('/', function () {
 
 Route::get('/hobby', [MainController::class, "hobby"])->name("hobby");
 
+Route::get('/Programma', [MainController::class, "Programma"])->name("Programma");
+
+Route::get('/WieBenIk', [MainController::class, "WieBenIk"])->name("Wie ben ik");
+
