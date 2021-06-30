@@ -31,6 +31,7 @@ h2, p {
 }
 a {
     text-decoration: none;
+    font-size: 1vw;
     color: #d8feff;
 }
 
@@ -46,33 +47,33 @@ nav {
     align-items: center;
 }
 
-ul {
-    overflow: hidden;
-    background-color: cadetblue;
-    position: sticky;
-    top: 0;
-}
+    ul {
+        overflow: hidden;
+        background-color: cadetblue;
+        position: sticky;
+        top: 0;
+    }
 
-li {
-    float: left;
-}
+    li {
+        float: left;
+    }
 
-li a {
-    text-decoration: none;
-    display: block;
-    color: #d8feff;
-    text-align: center;
-    padding: 14px 16px; 
-    text-decoration: none;
-}
+    li a {
+        text-decoration: none;
+        display: block;
+        color: #d8feff;
+        text-align: center;
+        padding: 5px 7px; 
+        text-decoration: none;
+    }
 
-li a:hover {
-    background-color: #20D9DF;
-}
+    li a:hover {
+        background-color: #20D9DF;
+    }
 
-.active {
-    background-color: #20d9dfe0;
-}
+    .active {
+        background-color: #20d9dfe0;
+    }
 
 /* main {
 position: relative;
@@ -94,60 +95,79 @@ main{
     background-color: #d8feff;
 }
 
-.buttons {
-    margin-top: 15%;
-}
+    .buttons {
+        margin-top: 15%;
+    }
 
-.effect {
-    background-color: transparent;
-    margin: 5%;
-    bottom: 0%;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-}
-/* animation button */
-button {
-    border-radius: 4px;
-    background-color: #20D9DF;
-    border: none;
-    color: #fff;
+    .effect {
+        background-color: transparent;
+        margin: 5%;
+        bottom: 0%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    /* animation button */
+    button {
+        border-radius: 4px;
+        background-color: #20D9DF;
+        border: none;
+        color: #fff;
+        text-align: center;
+        font-size: 1vw;
+        padding: 16px;
+        width: 220px;
+        transition: all 0.5s;
+        cursor: pointer;
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    }
+
+    button {
+        float: center;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    button:after {
+        content: '»';
+        position: absolute;
+        opacity: 0;
+        top: 14px;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    button:hover {
+        padding-right: 24px;
+        padding-left: 8px;
+        background-color: rgb(95, 158, 160);
+    }
+
+    button:hover:after {
+        opacity: 1;
+        right: 10px;
+    }
+
+.side {
+    float: left;
+    padding: 20px;
     text-align: center;
-    font-size: 1vw;
-    padding: 16px;
-    width: 220px;
-    transition: all 0.5s;
-    cursor: pointer;
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    border-radius: 10px;   
+    border: 2px solid cadetblue;
 }
 
-button {
-    float: center;
-    cursor: pointer;
-    display: block;
-    position: relative;
-    transition: 0.5s;
-}
+    img {
+        width: 50%;
+        max-width: 120px;
+        height: auto;
+    }
 
-button:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 14px;
-    right: -20px;
-    transition: 0.5s;
-}
-
-button:hover {
-    padding-right: 24px;
-    padding-left: 8px;
-    background-color: rgb(95, 158, 160);
-}
-
-button:hover:after {
-    opacity: 1;
-    right: 10px;
-}
+    .info {
+        color: cadetblue;
+        font-size: 2vw;
+    }
 
 /* aside {
 background-color: lightblue;
@@ -156,7 +176,7 @@ padding: 5px;
 }    */
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     text-align: center;
     font-weight: bold;
@@ -168,10 +188,18 @@ footer {
     width: 100%;
     border: 2px solid #d8feff;
 }
+
 /* ben bezig om het responsive te maken voor mobiel en laptop, 
 dus even wat research doen */
 @media only screen and (max-width: 800px) {
-header, main, aside, footer, button, nav, li, ul{
+    header, 
+    main, 
+    aside, 
+    footer, 
+    button, 
+    nav, li, ul, 
+    .side, .info, 
+    h2, h1, li a{
     width: 100%;
 }
 }
