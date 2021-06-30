@@ -1,53 +1,56 @@
 /* body */
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header { 
-position: relative;
-text-align: center;
-font-weight: bold;
-color: #d8feff;
-background-color: cadetblue;
-padding: 5px;
-float: left;
-width: 100%;
-height: null;
-border: 2px solid #d8feff; 
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: #d8feff;
+    background-color: cadetblue;
+    padding: 5px;
+    float: left;
+    width: 100%;
+    height: null;
+    border: 2px solid #d8feff; 
 }
 
 button {
-float: right;
+    float: right;
 }
 
 h1 {
-font-size: 2vw;
+    font-size: 2vw;
 }
 
 h2, p {
-font-size: 1vw;
+    font-size: 1vw;
 }
 a {
-text-decoration: none;
-color: #d8feff;
+    text-decoration: none;
+    color: #d8feff;
 }
 
 #wrapper {
-background-color: transparent;
+    background-color: transparent;
 }
 
 /* navigatie css */
 nav {
-list-style-type: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 ul {
-overflow: hidden;
-background-color: cadetblue;
-position: sticky;
-top: 0;
+    overflow: hidden;
+    background-color: cadetblue;
+    position: sticky;
+    top: 0;
 }
 
 li {
@@ -59,7 +62,7 @@ li a {
     display: block;
     color: #d8feff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px; 
     text-decoration: none;
 }
 
@@ -85,10 +88,10 @@ min-height: 90%;
 } */
 
 main{
-height: 97vh;
-width: 100vw;
-float: left;
-background-color: #d8feff;
+    height: 97vh;
+    width: 100vw;
+    float: left;
+    background-color: #d8feff;
 }
 
 .buttons {
@@ -97,7 +100,7 @@ background-color: #d8feff;
 
 .effect {
     background-color: transparent;
-    margin: 10px;
+    margin: 5%;
     bottom: 0%;
     display: flex;
     justify-content: center; 
@@ -110,20 +113,18 @@ button {
     border: none;
     color: #fff;
     text-align: center;
-    font-size: 32px;
+    font-size: 1vw;
     padding: 16px;
     width: 220px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 36px;
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
 }
 
 button {
-
-    float: left;
+    float: center;
     cursor: pointer;
-    display: inline-block;
+    display: block;
     position: relative;
     transition: 0.5s;
 }
@@ -140,6 +141,7 @@ button:after {
 button:hover {
     padding-right: 24px;
     padding-left: 8px;
+    background-color: rgb(95, 158, 160);
 }
 
 button:hover:after {
@@ -154,22 +156,22 @@ padding: 5px;
 }    */
 
 footer {
-position: absolute;
-bottom: 0;
-text-align: center;
-font-weight: bold;
-color: #d8feff;
-background-color: cadetblue;
-height: 3vh;
-float: left;
-padding: 5px;
-width: 100%;
-border: 2px solid #d8feff;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    color: #d8feff;
+    background-color: cadetblue;
+    height: 3vh;
+    float: left;
+    padding: 5px;
+    width: 100%;
+    border: 2px solid #d8feff;
 }
 /* ben bezig om het responsive te maken voor mobiel en laptop, 
 dus even wat research doen */
 @media only screen and (max-width: 800px) {
-header, main, aside, footer {
+header, main, aside, footer, button, nav, li, ul{
     width: 100%;
 }
 }
