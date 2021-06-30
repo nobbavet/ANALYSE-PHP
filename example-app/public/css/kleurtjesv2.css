@@ -169,6 +169,18 @@ main{
         font-size: 2vw;
     }
 
+.m1 {
+    float: left;
+    padding: 20px;  
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+}
+
+    .art1 {
+        color: cadetblue;
+    }
+
 /* aside {
 background-color: lightblue;
 float:  right;
