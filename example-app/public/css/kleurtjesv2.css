@@ -181,6 +181,31 @@ main{
         color: cadetblue;
     }
 
+        .opleiding {
+            text-align: left;
+        }
+
+.m2 {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+}
+    .stages {
+        text-align: left;
+    }
+
+.m3 {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+}
+    .TALEN {
+        text-align: left;
+    }
 /* aside {
 background-color: lightblue;
 float:  right;
